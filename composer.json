@@ -31,5 +31,5 @@
             "TrustyWork\\ImageDownloader\\Test\\": "tests"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
