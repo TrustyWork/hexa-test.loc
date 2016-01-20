@@ -30,5 +30,6 @@
         "psr-4": {
             "TrustyWork\\ImageDownloader\\Test\\": "tests"
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
