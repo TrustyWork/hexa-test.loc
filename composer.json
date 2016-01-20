@@ -1,0 +1,34 @@
+{
+    "name": "trustywork/images-downloader",
+    "description": "This is a simple package for test task of Hexa company.",
+    "keywords": [
+        "images",
+        "download"
+    ],
+    "homepage": "https://github.com/TrustyWork/images-downloader",
+    "authors": [
+        {
+            "name": "Alexander Litvinenko",
+            "email": "trustywork@gmail.com"
+        }
+    ],
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6.0"
+        ,"guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=5.1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "TrustyWork\\ImageDownloader\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TrustyWork\\ImageDownloader\\Test\\": "tests"
+        }
+    }
+}
